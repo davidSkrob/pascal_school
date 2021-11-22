@@ -1,0 +1,82 @@
+write('ahoj');
+>>ahoj
+
+write(x);
+//vypise promenou 
+>>{x}
+
+write('Vysledek je ', x);
+>>Vysledek je {x}
+//mezi jednotlivymi promenymi/konstantami je ,
+
+write(x);
+    vypise na obrazovku text. retezec, tex. znak, cislo, logicka hodnota
+
+
+datove typy
+byte, word - kladny cely cislo,
+smallint, intiger, longint - cely cislo
+real - racionalni cislo
+vyctovy typ
+interval
+
+writeln(x);
+    vypise informaci na obrazovku, a po vypsani odradkuje
+    x muze byt text. retezec, tex. znak, cislo, logicka hodnota
+    jde pouzit i bez parametru, udela novy radek
+
+readln(x);
+    nacte informaci z klavesice
+    x musi byt promena typu textovy retezec, textovy znak, cislo
+    program ceka na informaci od uzivatele, informace je ulozena az po zmacknuti klavesy ENTER
+    pokud nebude informace odpovidat promene
+
+
+
+char(intiger) => vyjde pismenko
+
+ord(char) => vyjde cislo
+//z ordinalniho dat. typu to hodi poradove cislo
+
+pred() => yeetne to predeslou hodotu
+//proste kdyz do toho yeetnu C tak to po mne hodi B
+
+succ() => yeetne to po mne dalsi sranec v poradi
+
+length() => vrati, kolik ma retezec znaku
+
+
+odd() => kontroluje sudost
+
+
+
+a div b  => celociselne deleni
+a mod b => modulo
+
+
+
+
+DU - program, ktery dela to stejny jako div a mod, aniz bych je pouzil
+   - program, co dela odd, bez toho, abych pouzil odd
+
+div => trunc(a/b)
+mod => (a/b - trunc(a/b))*b
+odd  => if mod(a) == 1 True;else False
+
+
+
+
+
+program Hello;
+    var text : string;
+begin
+    writeln('Napiste text');
+    readln(text);
+    writeln('Text obahuje ',length(text), ' znaku');
+    {write('Pismeno ');
+    readln(character);
+    writeln('Pismenu ', character, ' odpovida ', ord(character));
+    writeln('Po nem je ', succ(character), ' a pred nim je ', pred(character));
+    }
+end.
+
