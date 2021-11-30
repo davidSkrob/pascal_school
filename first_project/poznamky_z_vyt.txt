@@ -65,6 +65,15 @@ odd  => if mod(a) == 1 True;else False
 
 
 
+OPERATORY
+	unarni - jeden operand
+	binarni - dva operandy
+
+
+	aritmeticke
+	bitove
+	relacni operatory - vztah dvou cisel, <, >, <=, >=, ==, <> - nerovna se
+
 
 
 program Hello;
