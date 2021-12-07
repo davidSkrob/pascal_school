@@ -71,21 +71,21 @@ OPERATORY
 
 
 	aritmeticke
-	bitove
-	relacni operatory - vztah dvou cisel, <, >, <=, >=, ==, <> - nerovna se
+	bitove - not, and, or, xor, shl, shr -- vztup bitova hodnota, vysledek bitova hodnota
+	relacni operatory - vztah dvou ,hodnot <, >, <=, >=, ==, <> - nerovna se -- Vysledek true/False
+    logicke - not, and, or, xor -- Vysledek true/False
+    mnozinove operatory - sjednoceno, prunik
+    retezcove operatory - pracuje s string
+    adresni operatory - @, ^
+
+    #podle priority
+        nejvyssi - unarni - ^, not
+        vyssi - multiplikativni - *, /, and, mod, div
+        nizsi - aditivni - +, -, or, xor
+        nejnizsi - relacni - =,<,>, in
+
+    vyhodnoceni - zavorky, vissi priorita, zl
 
 
 
-program Hello;
-    var text : string;
-begin
-    writeln('Napiste text');
-    readln(text);
-    writeln('Text obahuje ',length(text), ' znaku');
-    {write('Pismeno ');
-    readln(character);
-    writeln('Pismenu ', character, ' odpovida ', ord(character));
-    writeln('Po nem je ', succ(character), ' a pred nim je ', pred(character));
-    }
-end.
 
