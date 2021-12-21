@@ -18,7 +18,7 @@ begin
             im1 := sqrtD/(2*a);
             im2 := - im1;
             writeln('root of quatratic is ', root1, ' + (', im1, ')i');
-            writeln('root of quatratic is ', root1, ' + (', im1, ')i');
+            writeln('root of quatratic is ', root1, ' + (', im2, ')i');
        end else begin
        sqrtD := sqrt(d);
        root1 := (-b + sqrt(d))/(2*a);
