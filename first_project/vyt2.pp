@@ -3,11 +3,11 @@ program Hello;
 begin
     write('x2 ');
     readln(a); // pro yefektivneni hodit if  a=0 uy sem
-    write('x ');
-    readln(b);
-    write('c ');
-    readln(c);
-    if a = 0 then writeln('Neni kvadraticka rovnice') else begin
+	if a = 0 then writeln('Neni kvadraticka rovnice') else begin
+		write('x ');
+		readln(b);
+		write('c ');
+		readln(c);
        d := sqr(b)-(4*a*c);
        write(d);
        if d < 0 then begin
