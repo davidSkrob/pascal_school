@@ -49,10 +49,8 @@ length() => vrati, kolik ma retezec znaku
 odd() => kontroluje sudost
 
 
-
 a div b  => celociselne deleni
 a mod b => modulo
-
 
 
 
@@ -112,6 +110,3 @@ co muze byt podminka
 
 
 	
-
-
-
