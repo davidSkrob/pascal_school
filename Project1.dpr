@@ -1,0 +1,38 @@
+program Project1;
+{$APPTYPE CONSOLE}
+uses
+  SysUtils;
+var f,g:textfile;
+var i,k, j:longint;
+var x, a : string;
+begin
+  assign(f, 'N:\pascalos\lulwxd.txt');
+  assign(g, 'N:\pascalos\vystup.txt');
+  reset(f);
+  rewrite(g);
+
+  i:=0;
+  while not eof(f) do
+  begin
+    i := i + 1 ;
+	  readln(f,a);
+  end;
+  close(f);
+
+  for k := i downto 1do
+  begin
+      assign(f, 'N:\pascalos\lulwxd.txt');
+      reset(f);
+      for j := 0 to k-2 do
+      begin
+         readln(f,a);
+      end;
+      readln(f,x);
+      writeln(g, x);
+      close(f);
+  end;
+
+  close(g);
+  writeln('for terminate program press enter...');
+  readln(k);
+end.

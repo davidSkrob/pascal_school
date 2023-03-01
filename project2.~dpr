@@ -1,0 +1,29 @@
+program Project1;
+{$APPTYPE CONSOLE}
+uses
+  SysUtils;
+var category :longint;
+var price: real;
+
+function calc_price(price:real; category:longint):real;
+begin
+  case category of
+    1: calc_price := price * (1 + 0.10);
+    2: calc_price := price * (1 + 0.15);
+    3: calc_price := price * (1 + 0.21);
+  end;
+end;
+
+begin
+  writeln('price of product');
+  readln(price);
+  writeln('category of product (1 - 10%;2 - 15%;3 - 21%)');
+  readln(category);
+
+  write('price after tax:');
+  writeln(calc_price(price, category));
+
+  writeln('for terminate program press enter...');
+  readln(price);
+end.
+

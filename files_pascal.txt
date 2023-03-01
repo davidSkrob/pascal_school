@@ -1,0 +1,22 @@
+program reezyhoPles;
+var f:textfile;
+begin
+  writeln ('Hello World');
+  assingn(f,'C:\data\lul.txt');
+  //reset(f);   //jen cteni
+  rewrite(f);  //jen psani, kdyz soubor neexistuje
+  //append(f);     //jen psani
+  writeln(f, 'lul lulwxd');
+  closefile(f);
+
+  reset(f);
+//-> jdeme na dalsi radek
+  readln(f, x);//x je string => x je cely radek
+  readln(f,z);//z je cislo => z je cislo kdyz je na radku prave jedno cislo
+//->jdeme po znacich (+exta)
+  read(f, p);//p je char => jdeme po jednotlivych ynacich (vcetne ridicich)
+  read(f,z);//z je cislo => jdeme po mezeru (popr. tab, konec radku atd.)	
+
+
+	
+end.
