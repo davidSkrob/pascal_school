@@ -1,0 +1,26 @@
+strukturovane prikazy
+
+slozeny prikaz
+prikazy vetveni
+prikazy cyklu
+hromadnz prikay
+
+-- je lepsi sinus nebo sqrt
+
+slozeny prikaz
+	umoznuje udelat z nekolika prikazu jeden prikaz
+	begin
+		prikaz
+	end;
+
+prikazy vetveni
+	podmineni prikay	if podminka then prikay1 else prikay2;
+	vicenasobne vetveni
+
+co muze byt podminka
+	logicka hodnota
+	vzraz s  logickym vysledkem
+	prikaz s log. vysledkem
+
+
+	
