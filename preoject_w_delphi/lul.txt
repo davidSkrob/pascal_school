@@ -1,0 +1,6 @@
+Honza,Ceske budejovice,9.3.2023,1
+jenda,Praha,14.3.2023,0
+Honza,Ceske budejovice,9.3.2023,1
+Honza,Ceske budejovice,9.3.2023,1
+Honza,Ceske budejovice,9.3.2023,1
+Honza,Ceske budejovice,9.3.2023,1
